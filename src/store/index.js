@@ -1,7 +1,7 @@
 import { createStore, combineReducers, applyMiddleware} from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
-import reporter from './reporter.js';
+import reporter from './middleware/reporter';
 
 import historyReducer from '../reducers/history-reducers';
 import formReducer from '../reducers/form-reducers';
