@@ -3,8 +3,8 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
 import reporter from './middleware/reporter';
 
-import historyReducer from '../reducers/history-reducers';
-import formReducer from '../reducers/form-reducers';
+import historyReducer from '../reducers/history-reducer';
+import formReducer from '../reducers/form-reducer';
 
 /**
  * combineReducers object
@@ -15,7 +15,7 @@ let reducers = combineReducers({
   form: formReducer
 });
 
-const store = () => createStore(reducers, composeWithDevTools(applyMiddleware(thunk, reporter)));
+const store = () => createStore(reducers, composeWithDevTools(applyMiddleware(reporter, thunk)));
 
 /**
  * export default

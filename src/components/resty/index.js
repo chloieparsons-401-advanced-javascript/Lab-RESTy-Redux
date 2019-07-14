@@ -8,18 +8,18 @@ import md5 from 'md5';
 class RESTy extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      url: '',
-      method: 'get',
-      requestBody: '',
-      username: '',
-      password: '',
-      token: '',
-      header: {},
-      body: {},
-      history: {},
-      headersVisible: false,
-    };
+    // this.state = {
+      // url: '',
+      // method: 'get',
+      // requestBody: '',
+      // username: '',
+      // password: '',
+      // token: '',
+      // header: {},
+      // body: {},
+      // history: {},
+      // headersVisible: false,
+    // };
   }
 
   componentDidMount() {

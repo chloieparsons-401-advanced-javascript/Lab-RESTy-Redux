@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 import App from './src/app.js';
 
-import createStore from './store';
+import createStore from './src/store';
 const store = createStore();
 
 /**
