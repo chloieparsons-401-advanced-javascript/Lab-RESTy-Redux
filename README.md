@@ -4,7 +4,7 @@
 
 ## Links and Resources
 
-- [Index](./index)
+- [Index](./index.js)
 
 ## Modules
 
