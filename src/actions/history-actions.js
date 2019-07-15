@@ -1,11 +1,9 @@
-const go = (method, payload) => {
+export const setHistory = payload => {
   return {
     type: 'SET_HISTORY',
     payload: payload
   };
 };
-
-export const setHistory = payload => dispatch => dispatch(go(payload));
 
 // export const get = payload => dispatch => {
 //   return superagent.get(payload.url).then(data => {
