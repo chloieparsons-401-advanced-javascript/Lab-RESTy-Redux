@@ -7,6 +7,10 @@ import Header from './components/header/';
 import Footer from './components/footer/';
 import RESTy from './components/resty';
 
+/**
+ * App class component
+ * @description App class combines the components
+ */
 class App extends React.Component {
   render() {
     return (
